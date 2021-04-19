@@ -1,0 +1,11 @@
+[user]
+	email = goffice24@gmail.com
+	name = Goffice24
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+[filesystem "Oracle Corporation|11.0.10|140377833"]
+	timestampResolution = 1995 microseconds
+	minRacyThreshold = 0 nanoseconds
